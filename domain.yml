@@ -1,0 +1,34 @@
+version: "2.0"
+
+intents:
+  - cumprimentar
+  - despedir
+  - afirmar
+  - negar
+  - tudo_bem
+  - covid_intro
+
+responses:
+  utter_cumprimentar:
+  - text: |
+      Oi, eu sou um assistente virtual!
+      Olá, tudo bem?
+
+
+  utter_despedir:
+  - text: |
+      Até logo!
+      Até mais
+
+  utter_tudo_bem:
+  - text: |
+      Tudo bem, obrigada! Em que posso te ajudar?
+
+  utter_covid_intro:
+  - text: Os coronavírus são uma grande família viral, conhecidos desde meados de 1960, que causam infecções respiratórias em seres humanos e em animais.Geralmente, infecções por coronavírus causam doenças respiratórias leves a moderadas, semelhantes a um resfriado comum. Porém, alguns coronavírus podem causar doenças graves com impacto em termos de saúde pública, como já verificado com a Síndrome Respiratória Aguda Grave (SARS), identificada em 2002, e a Síndrome Respiratória do Oriente Médio (MERS), identificada em 2012.
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,76 @@
+version: "2.0"
+
+nlu:
+- intent: cumprimentar
+  examples: |
+    - hey
+    - Oi
+    - Olá
+    - E aí
+    - Bom dia
+    - Boa tarde
+    - Boa noite
+
+- intent: despedir
+  examples: |
+    - Até
+    - tchau
+    - Bom dia
+    - Boa noite
+    - Boa tarde
+    - tenha um bom dia
+    - adeus
+    - flw
+    - Até mais, bot
+
+
+- intent: afirmar
+  examples: |
+    - sim
+    - s
+    - claro
+    - mas é claro
+    - correto
+    - parece legal
+    - exato
+    - isso mesmo
+
+- intent: negar
+  examples: |
+    - não
+    - n
+    - nunca
+    - eu não acho isso
+    - não gosto disso
+    - de jeito nenhum
+    - realmente não
+    - escolhi errado
+    - falei errado
+    - negativo
+
+- intent: tudo_bem
+  examples: |
+    - tudo bem
+    - como vai voce
+    - como vao as coisas
+    - to bem
+    - tranquilo
+    - estou bem
+    - estou otimo
+    - tudo bem e você
+    - como vocês esta
+
+- intent: covid_intro
+  examples: |
+    - O que é o coronavírus?
+    - O que é Covid-19?
+    - Me fala sobre coronavirus?
+    - Me fala sobre covid-19?
+    - O que é Covid?
+    - Me fala sobre covid?
+    - Coronavirus?
+    - Covid
+    - Covid-19
+    - Preciso saber o que é Covid?
+    - Informações sobre Covid
+
